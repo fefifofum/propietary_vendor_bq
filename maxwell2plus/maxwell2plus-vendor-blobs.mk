@@ -28,8 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/bq/maxwell2plus/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libRkDeflatingDecompressor.so:system/lib/libRkDeflatingDecompressor.so \
     vendor/bq/maxwell2plus/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
     vendor/bq/maxwell2plus/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
     vendor/bq/maxwell2plus/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
@@ -43,9 +41,29 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_chromium_http.so:system/lib/libstagefright_chromium_http.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_aacenc.so:system/lib/libstagefright_soft_aacenc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_amrnbenc.so:system/lib/libstagefright_soft_amrnbenc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_amrwbenc.so:system/lib/libstagefright_soft_amrwbenc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_flacenc.so:system/lib/libstagefright_soft_flacenc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_h264dec.so:system/lib/libstagefright_soft_h264dec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_h264enc.so:system/lib/libstagefright_soft_h264enc.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_rawdec.so:system/lib/libstagefright_soft_rawdec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
     vendor/bq/maxwell2plus/proprietary/lib/libvpu.so:system/lib/libvpu.so
 
 # Mali
@@ -76,6 +94,8 @@ PRODUCT_COPY_FILES += \
 
 # HAL
 PRODUCT_COPY_FILES += \
+    vendor/bq/maxwell2plus/proprietary/lib/hw/alsa.audio.primary.rk30board.so:system/lib/hw/alsa.audio.primary.rk30board.so \
+    vendor/bq/maxwell2plus/proprietary/lib/hw/alsa.audio_policy.rk30board.so:system/lib/hw/alsa.audio_policy.rk30board.so \
     vendor/bq/maxwell2plus/proprietary/lib/hw/audio.primary.rk30board.so:system/lib/hw/audio.primary.rk30board.so \
     vendor/bq/maxwell2plus/proprietary/lib/hw/audio_policy.rk30board.so:system/lib/hw/audio_policy.rk30board.so \
     vendor/bq/maxwell2plus/proprietary/lib/hw/camera.rk30board.so:system/lib/hw/camera.rk30board.so \
