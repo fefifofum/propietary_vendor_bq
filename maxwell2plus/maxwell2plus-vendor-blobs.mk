@@ -26,12 +26,12 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/libapedec.so:system/lib/libapedec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libhtml5_check.so:system/lib/libhtml5_check.so \
     vendor/bq/maxwell2plus/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libjesancache.so:system/lib/libjesancache.so \
     vendor/bq/maxwell2plus/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
     vendor/bq/maxwell2plus/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
     vendor/bq/maxwell2plus/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
-    vendor/bq/maxwell2plus/proprietary/lib/registry:system/lib/registry
+    vendor/bq/maxwell2plus/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so
 
 # Statefright
 PRODUCT_COPY_FILES += \
@@ -64,7 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libvpu.so:system/lib/libvpu.so
+    vendor/bq/maxwell2plus/proprietary/lib/libvpu.so:system/lib/libvpu.so \
+    vendor/bq/maxwell2plus/proprietary/lib/registry:system/lib/registry
 
 # Mali
 PRODUCT_COPY_FILES += \
@@ -83,14 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/bq/maxwell2plus/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/bq/maxwell2plus/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so
-
-# DRM
-PRODUCT_COPY_FILES += \
-    vendor/bq/maxwell2plus/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/bq/maxwell2plus/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/bq/maxwell2plus/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/bq/maxwell2plus/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/bq/maxwell2plus/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
 
 # HAL
 PRODUCT_COPY_FILES += \

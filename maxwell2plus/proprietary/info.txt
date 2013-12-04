@@ -1,10 +1,6 @@
 
 BQ Maxwell 2 Plus 4.1.1 - v1.0.1:
 
-bin/glgps
-bin/gpslogd
-lib/hw/gps.rk30board.so
-lib/hw/lights.rk30board.so
 lib/hw/sensors.rk30board.so
 lib/libakm8963.so
 lib/libakmd.so
@@ -16,23 +12,25 @@ lib/libmplmpu.so
 
 ##############################################
 
-BQ Curie 2 QuadCore 4.2.2 - v1.1.0:
+BQ Maxwell 2 QuadCore 4.2.2 - v1.0.1:
 
-bin/vold
+bin/*
 etc/firmware/*
 lib/egl/*
+lib/modules/*
 lib/hw/audio.primary.rk30board.so
 lib/hw/audio_policy.rk30board.so
 lib/hw/camera.rk30board.so
+lib/hw/gps.rk30board.so
 lib/hw/gpu.rk30board.so
 lib/hw/gralloc.rk30board.so
 lib/hw/hwcomposer.rk30board.so
+lib/hw/lights.rk30board.so
 lib/hw/power.rk30xx.so
-lib/modules/*
 lib/libapedec.so
-lib/libdrmdecrypt.so
 lib/libhtml5_check.so
 lib/libion.so
+lib/libjesancache.so
 lib/libjpeghwdec.so
 lib/libjpeghwenc.so
 lib/libMali.so
@@ -71,4 +69,3 @@ lib/libUMP.so
 lib/libvpu.so
 lib/libyuvtorgb.so
 lib/registry
-vendor/lib/*
