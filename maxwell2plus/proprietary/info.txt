@@ -36,6 +36,7 @@ lib/librkswscale.so
 lib/librkwmapro.so
 lib/libstagefright.so
 lib/libstagefrighthw.so
+lib/libstagefright_chromium_http.so
 lib/libstagefright_foundation.so
 lib/libstagefright_soft_aacdec.so
 lib/libstagefright_soft_mp3dec.so
