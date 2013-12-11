@@ -44,3 +44,4 @@ lib/libUMP.so
 lib/libvpu.so
 lib/libyuvtorgb.so
 lib/registry
+vendor/*

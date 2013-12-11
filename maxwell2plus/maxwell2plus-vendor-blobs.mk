@@ -81,6 +81,13 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/modules/ump.ko:system/lib/modules/ump.ko \
     vendor/bq/maxwell2plus/proprietary/lib/modules/vpu_service.ko:system/lib/modules/vpu_service.ko
 
+# DRM
+PRODUCT_COPY_FILES += \
+    vendor/bq/maxwell2plus/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/bq/maxwell2plus/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/bq/maxwell2plus/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/bq/maxwell2plus/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+
 # Firmware
 PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/etc/firmware/BCM4330B1.hcd:system/etc/firmware/BCM4330B1.hcd \
