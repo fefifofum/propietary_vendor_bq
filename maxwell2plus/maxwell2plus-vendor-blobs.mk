@@ -53,24 +53,13 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/bq/maxwell2plus/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
 
-# Sensors
-PRODUCT_COPY_FILES += \
-    vendor/bq/maxwell2plus/proprietary/lib/libakm8963.so:system/lib/libakm8963.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libakmd.so:system/lib/libakmd.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libami.so:system/lib/libami.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libami_sensor_mw.so:system/lib/libami_sensor_mw.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so
-
 # HAL
 PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/hw/camera.rk30board.so:system/lib/hw/camera.rk30board.so \
     vendor/bq/maxwell2plus/proprietary/lib/hw/gps.rk30board.so:system/lib/hw/gps.rk30board.so \
     vendor/bq/maxwell2plus/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
     vendor/bq/maxwell2plus/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
-    vendor/bq/maxwell2plus/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
-    vendor/bq/maxwell2plus/proprietary/lib/hw/sensors.rk30board.so:system/lib/hw/sensors.rk30board.so
+    vendor/bq/maxwell2plus/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so
 
 # Modules
 PRODUCT_COPY_FILES += \

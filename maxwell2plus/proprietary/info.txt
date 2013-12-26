@@ -1,17 +1,4 @@
 
-BQ Maxwell 2 Plus 4.1.1 - v1.0.1:
-
-lib/hw/sensors.rk30board.so
-lib/libakm8963.so
-lib/libakmd.so
-lib/libami.so
-lib/libami_sensor_mw.so
-lib/libmllite.so	
-lib/libmlplatform.so
-lib/libmplmpu.so
-
-##############################################
-
 BQ Maxwell 2 QuadCore 4.2.2 - v1.0.1:
 
 bin/*
