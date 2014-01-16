@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2011 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,26 +11,26 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+
 
 # Binaries
 PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/bin/glgps:system/bin/glgps \
-    vendor/bq/maxwell2plus/proprietary/bin/vold:system/bin/vold \
-#    vendor/bq/maxwell2plus/proprietary/bin/gpslogd:system/bin/gpslogd
+    vendor/bq/maxwell2plus/proprietary/bin/vold:system/bin/vold
 
 # Libraries
 PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
     vendor/bq/maxwell2plus/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/bq/maxwell2plus/proprietary/lib/libomxvpu.so:system/lib/libomxvpu.so \
     vendor/bq/maxwell2plus/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
     vendor/bq/maxwell2plus/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libvideoeditor_core.so:system/lib/libvideoeditor_core.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libvideoeditor_jni.so:system/lib/libvideoeditor_jni.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libvideoeditorplayer.so:system/lib/libvideoeditorplayer.so \
     vendor/bq/maxwell2plus/proprietary/lib/libvpu.so:system/lib/libvpu.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
-    vendor/bq/maxwell2plus/proprietary/lib/registry:system/lib/registry
+    vendor/bq/maxwell2plus/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so
 
 # Statefright
 PRODUCT_COPY_FILES += \
@@ -103,5 +102,4 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2plus/proprietary/etc/firmware/BCM4330B1.hcd:system/etc/firmware/BCM4330B1.hcd \
     vendor/bq/maxwell2plus/proprietary/etc/firmware/fw_RK903b2.bin:system/etc/firmware/fw_RK903b2.bin \
     vendor/bq/maxwell2plus/proprietary/etc/firmware/fw_RK903b2_apsta.bin:system/etc/firmware/fw_RK903b2_apsta.bin \
-    vendor/bq/maxwell2plus/proprietary/etc/firmware/fw_RK903b2_p2p.bin:system/etc/firmware/fw_RK903b2_p2p.bin \
-    vendor/bq/maxwell2plus/proprietary/etc/firmware/nvram_RK903_26M.cal:system/etc/firmware/nvram_RK903_26M.cal
+    vendor/bq/maxwell2plus/proprietary/etc/firmware/fw_RK903b2_p2p.bin:system/etc/firmware/fw_RK903b2_p2p.bin
