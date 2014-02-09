@@ -19,12 +19,19 @@ PRODUCT_COPY_FILES += \
 
 # Libraries
 PRODUCT_COPY_FILES += \
+    vendor/bq/maxwell2plus/proprietary/lib/libapedec.so:system/lib/libapedec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/bq/maxwell2plus/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
     vendor/bq/maxwell2plus/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/bq/maxwell2plus/proprietary/lib/libomxvpu_dec.so:system/lib/libomxvpu_dec.so \
     vendor/bq/maxwell2plus/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
+    vendor/bq/maxwell2plus/proprietary/lib/libRkOMX_Resourcemanager.so:system/lib/libRkOMX_Resourcemanager.so \
     vendor/bq/maxwell2plus/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
+    vendor/bq/maxwell2plus/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
+    vendor/bq/maxwell2plus/proprietary/lib/librk_audio.so:system/lib/librk_audio.so \
+    vendor/bq/maxwell2plus/proprietary/lib/librk_demux.so:system/lib/librk_demux.so \
+    vendor/bq/maxwell2plus/proprietary/lib/librk_on2.so:system/lib/librk_on2.so \
     vendor/bq/maxwell2plus/proprietary/lib/libvideoeditor_core.so:system/lib/libvideoeditor_core.so \
     vendor/bq/maxwell2plus/proprietary/lib/libvideoeditor_jni.so:system/lib/libvideoeditor_jni.so \
     vendor/bq/maxwell2plus/proprietary/lib/libvideoeditorplayer.so:system/lib/libvideoeditorplayer.so \
@@ -32,11 +39,6 @@ PRODUCT_COPY_FILES += \
 
 # Statefright
 PRODUCT_COPY_FILES += \
-    vendor/bq/maxwell2plus/proprietary/lib/libapedec.so:system/lib/libapedec.so \
-    vendor/bq/maxwell2plus/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
-    vendor/bq/maxwell2plus/proprietary/lib/librk_demux.so:system/lib/librk_demux.so \
-    vendor/bq/maxwell2plus/proprietary/lib/librk_on2.so:system/lib/librk_on2.so \
-    vendor/bq/maxwell2plus/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/bq/maxwell2plus/proprietary/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
