@@ -15,7 +15,8 @@
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/bq/maxwell2plus/proprietary/bin/glgps:system/bin/glgps
+    vendor/bq/maxwell2plus/proprietary/bin/glgps:system/bin/glgps \
+    vendor/bq/maxwell2plus/proprietary/bin/wfd:system/bin/wfd
 
 # Libraries
 PRODUCT_COPY_FILES += \
