@@ -59,9 +59,6 @@ PRODUCT_COPY_FILES += \
 
 # HAL
 PRODUCT_COPY_FILES += \
-    vendor/bq/maxwell2qc/proprietary/lib/hw/audio.alsa_usb.rk30board.so:system/lib/hw/audio.alsa_usb.rk30board.so \
-    vendor/bq/maxwell2qc/proprietary/lib/hw/audio.primary.rk30board.so:system/lib/hw/audio.primary.rk30board.so \
-    vendor/bq/maxwell2qc/proprietary/lib/hw/audio_policy.rk30board.so:system/lib/hw/audio_policy.rk30board.so \
     vendor/bq/maxwell2qc/proprietary/lib/hw/camera.rk30board.so:system/lib/hw/camera.rk30board.so \
     vendor/bq/maxwell2qc/proprietary/lib/hw/gps.rk30board.so:system/lib/hw/gps.rk30board.so \
     vendor/bq/maxwell2qc/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
