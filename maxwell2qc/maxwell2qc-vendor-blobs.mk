@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2qc/proprietary/bin/akmd:system/bin/akmd \
     vendor/bq/maxwell2qc/proprietary/bin/glgps:system/bin/glgps \
-    vendor/bq/maxwell2qc/proprietary/bin/performance:system/bin/performance \
     vendor/bq/maxwell2qc/proprietary/bin/wfd:system/bin/wfd
 
 # Libraries
@@ -27,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2qc/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/bq/maxwell2qc/proprietary/lib/libomxvpu_dec.so:system/lib/libomxvpu_dec.so \
     vendor/bq/maxwell2qc/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
-    vendor/bq/maxwell2qc/proprietary/lib/libperformance_runtime.so:system/lib/libperformance_runtime.so \
     vendor/bq/maxwell2qc/proprietary/lib/libRkOMX_Resourcemanager.so:system/lib/libRkOMX_Resourcemanager.so \
     vendor/bq/maxwell2qc/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
     vendor/bq/maxwell2qc/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
