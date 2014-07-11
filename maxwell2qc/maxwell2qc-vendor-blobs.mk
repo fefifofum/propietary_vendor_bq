@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/maxwell2qc/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/bq/maxwell2qc/proprietary/lib/libstagefright_chromium_http.so:system/lib/libstagefright_chromium_http.so \
     vendor/bq/maxwell2qc/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
+    vendor/bq/maxwell2qc/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/bq/maxwell2qc/proprietary/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
     vendor/bq/maxwell2qc/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so
 
