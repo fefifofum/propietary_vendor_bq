@@ -66,9 +66,9 @@ PRODUCT_COPY_FILES += \
 
 # Widevine
 PRODUCT_COPY_FILES += \
+    vendor/bq/maxwell2qc/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/bq/maxwell2qc/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/bq/maxwell2qc/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/bq/maxwell2qc/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/bq/maxwell2qc/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/bq/maxwell2qc/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/maxwell2qc/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
